@@ -1,0 +1,20 @@
+# Ignore all .log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore all files ending with .tmp
+*.tmp
+
+# Ignore specific file
+secret.env
+
+# Do not ignore important.log even though all .log files are ignored
+!important.log
+
+*.xml
+*.dsn
+
+*Gerber/*
+*backups/*
